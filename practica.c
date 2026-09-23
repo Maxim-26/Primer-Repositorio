@@ -2,7 +2,13 @@
 
  int main() {
 
-    printf("Hola mundo");
+   char nombre[30];
 
-    return 0;
- }
+   printf("Ingrese su nombre:");
+   scanf("%s", nombre);
+   
+   printf("Hola %s" nombre);
+
+   return 0;
+
+}
