@@ -5,11 +5,11 @@
   char nombre[30];
 
   printf("Ingrese su nombre:");
-   scanf("%s", nombre);
+  scanf("%s", nombre);
    
   printf("Hola %s" nombre);
 
-  printf("Agregue un comentario:");
+  printf("Haga un comentario:");
 
   return 0;
 
